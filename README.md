@@ -1,4 +1,4 @@
-# This is a Spotify clone, developed with the framework NextJs, where I used such technologies: React, Tailwind and TypeScript.
+## This is a Spotify clone, developed with the framework NextJs, where I used such technologies: React, Tailwind and TypeScript.
 
 <div direction="row">
   <img align="center" alt="Next" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
