@@ -2,9 +2,8 @@ services:
 - type: web
   name: nextjs-static
   env: static
-  buildCommand: yarn; yarn build; yarn next export
+  buildCommand: npm run build
+  startCommand: npm run start
   staticPublishPath: out
   pullRequestPreviewsEnabled: true     # optional
-  envVars:
-  - key: NODE_ENV
-    value: production
+  publishDir: ./.next
