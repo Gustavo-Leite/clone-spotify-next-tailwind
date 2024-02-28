@@ -22,52 +22,52 @@ export const HomePage = () => {
 
       <div className='grid grid-cols-3 gap-4 mt-4'>
         <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
-          <Image src='/musicas-curtidas.png' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16' width={82} height={82} alt='Capa album' />
-          <strong className='xl:text-base lg:text-sm'>Musícas Curtidas</strong>
-          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 lg:mr-2'>
-            <Play className='lg:w-14' size={20} color='#FFF' weight="fill" />
+          <Image src='/musicas-curtidas.png' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16 md:w-10 md:h-10 sm:w-6 sm:h-6' width={82} height={82} alt='Capa album' />
+          <strong className='xl:text-base lg:text-sm sm:text-xs'>Musícas Curtidas</strong>
+          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 md:w-8 md:h-8 sm:w-6 sm:h-6 sm:mr-2'>
+            <Play className='lg:w-14 md:w-12' size={20} color='#FFF' weight="fill" />
           </button>
         </a>
         <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
-          <Image src='/minha-playlist-antigas.jfif' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16' width={82} height={82} alt='Capa album' />
-          <strong className='xl:text-base lg:text-sm'>Antigas</strong>
-          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 lg:mr-2'>
-            <Play size={20} color='#FFF' weight="fill" />
+          <Image src='/minha-playlist-antigas.jfif' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16 md:w-10 md:h-10 sm:w-6 sm:h-6' width={82} height={82} alt='Capa album' />
+          <strong className='xl:text-base lg:text-sm sm:text-xs'>Antigas</strong>
+          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 md:w-8 md:h-8 sm:w-6 sm:h-6 sm:mr-2'>
+            <Play className='lg:w-14 md:w-12' size={20} color='#FFF' weight="fill" />
           </button>
         </a>
         <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
-          <Image src='/pod-akita.jpg' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16' width={82} height={82} alt='Capa album' />
-          <strong className='xl:text-base lg:text-sm'>Akitando</strong>
-          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 lg:mr-2'>
-            <Play size={20} color='#FFF' weight="fill" />
+          <Image src='/pod-akita.jpg' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16 md:w-10 md:h-10 sm:w-6 sm:h-6' width={82} height={82} alt='Capa album' />
+          <strong className='xl:text-base lg:text-sm sm:text-xs'>Akitando</strong>
+          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 md:w-8 md:h-8 sm:w-6 sm:h-6 sm:mr-2'>
+            <Play className='lg:w-14 md:w-12' size={20} color='#FFF' weight="fill" />
           </button>
         </a>
         <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
-          <Image src='/g-eazy.jpg' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16' width={82} height={82} alt='Capa album' />
-          <strong className='xl:text-base lg:text-sm'>G-Eazy</strong>
-          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 lg:mr-2'>
-            <Play size={20} color='#FFF' weight="fill" />
+          <Image src='/g-eazy.jpg' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16 md:w-10 md:h-10 sm:w-6 sm:h-6' width={82} height={82} alt='Capa album' />
+          <strong className='xl:text-base lg:text-sm sm:text-xs'>G-Eazy</strong>
+          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 md:w-8 md:h-8 sm:w-6 sm:h-6 sm:mr-2'>
+            <Play className='lg:w-14 md:w-12' size={20} color='#FFF' weight="fill" />
           </button>
         </a>
         <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
-          <Image src='/album-auge.jfif' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16' width={82} height={82} alt='Capa album' />
-          <strong className='xl:text-base lg:text-sm'>AUGE</strong>
-          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 lg:mr-2'>
-            <Play size={20} color='#FFF' weight="fill" />
+          <Image src='/album-auge.jfif' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16 md:w-10 md:h-10 sm:w-6 sm:h-6' width={82} height={82} alt='Capa album' />
+          <strong className='xl:text-base lg:text-sm sm:text-xs'>AUGE</strong>
+          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 md:w-8 md:h-8 sm:w-6 sm:h-6 sm:mr-2'>
+            <Play className='lg:w-14 md:w-12' size={20} color='#FFF' weight="fill" />
           </button>
         </a>
         <a href='#' className='bg-white/5 group rounded overflow-hidden flex items-center gap-4 hover:bg-white/10 transition-colors'>
-          <Image src='/pod-fala-dev.jfif' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16' width={82} height={82} alt='Capa album' />
-          <strong className='xl:text-base lg:text-sm'>Fala Dev</strong>
-          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 lg:mr-2'>
-            <Play size={20} color='#FFF' weight="fill" />
+          <Image src='/pod-fala-dev.jfif' className='xl:w-24 xl:h-24 lg:w-16 lg:h-16 md:w-10 md:h-10 sm:w-6 sm:h-6' width={82} height={82} alt='Capa album' />
+          <strong className='xl:text-base lg:text-sm sm:text-xs'>Fala Dev</strong>
+          <button className='flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-6 invisible group-hover:visible xl:w-12 xl:h-12 xl:mr-6 lg:w-8 lg:h-8 md:w-8 md:h-8 sm:w-6 sm:h-6 sm:mr-2'>
+            <Play className='lg:w-14 md:w-12' size={20} color='#FFF' weight="fill" />
           </button>
         </a>
       </div>
 
       <h2 className='font-bold text-2xl mt-10'>Seus Programas</h2>
 
-      <div className='grid gap-4 mt-4 3xl:grid-cols-10 2xl:gap-2 2xl:grid-cols-7 xl:grid-cols-5 xl:gap-4 lg:grid-cols-4 lg:gap-4'>
+      <div className='grid gap-4 mt-4 3xl:grid-cols-10 2xl:gap-2 2xl:grid-cols-7 xl:grid-cols-5 xl:gap-4 lg:gap-4 md:grid-cols-4 md:gap-2 sm:grid-cols-3 sm:gap-2'>
         <a href='https://open.spotify.com/show/6w9Fcpu5argDMKw73eigwj' className='bg-white/5 flex flex-col gap-2 p-3 2xl:w-48 2xl:h-64 rounded-md hover:bg-white/10'>
           <Image src='/pod-akita.jpg' className='w-full rounded-md' width={120} height={120} alt='Capa album' />
           <strong className='font-semibolt'>Akitando</strong>
@@ -128,7 +128,7 @@ export const HomePage = () => {
 
       <h2 className='font-bold text-2xl mt-10'>Tocados recentemente</h2>
 
-      <div className='grid gap-4 mt-4 3xl:grid-cols-10 2xl:gap-2 2xl:grid-cols-7 xl:grid-cols-5 xl:gap-4 lg:grid-cols-4 lg:gap-4'>
+      <div className='grid gap-4 mt-4 3xl:grid-cols-10 2xl:gap-2 2xl:grid-cols-7 xl:grid-cols-5 xl:gap-4 lg:gap-4 md:grid-cols-4 md:gap-2 sm:grid-cols-3 sm:gap-2'>
         <a href='#' className='bg-white/5 flex flex-col gap-2 p-3 2xl:w-48 2xl:h-64 rounded-md hover:bg-white/10'>
           <Image src='/g-eazy.jpg' className='w-full rounded-full' width={120} height={120} alt='Capa album' />
           <strong className='font-semibolt'>G-Eazy</strong>
@@ -189,7 +189,7 @@ export const HomePage = () => {
 
       <h2 className='font-bold text-2xl mt-10'>Suas músicas estão com saudade</h2>
 
-      <div className='grid mb-32 gap-4 mt-4 3xl:grid-cols-10 2xl:gap-2 2xl:grid-cols-7 xl:grid-cols-5 xl:gap-4 lg:grid-cols-4 lg:gap-4'>
+      <div className='grid gap-4 mt-4 3xl:grid-cols-10 2xl:gap-2 2xl:grid-cols-7 xl:grid-cols-5 xl:gap-4 lg:gap-4 md:grid-cols-4 md:gap-2 sm:grid-cols-3 sm:gap-2'>
         <a href='#' className='bg-white/5 flex flex-col gap-2 p-3 2xl:w-48 2xl:h-64 rounded-md hover:bg-white/10'>
           <Image src='/musicas-curtidas.png' className='w-full rounded-md' width={120} height={120} alt='Capa album' />
           <strong className='font-semibolt'>(music name)</strong>

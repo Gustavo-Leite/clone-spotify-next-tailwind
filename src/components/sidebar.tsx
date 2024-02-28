@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export const Sidebar = () => {
   return (
-    <aside className="bg-zinc-950 p-2 xl:w-96 lg:w-80">
+    <aside className="bg-zinc-950 p-2 xl:w-96 lg:w-80 md:w-60 sm:w-64">
 
       <nav className="bg-zinc-900 rounded-md p-4 xl:space-y-5 lg:space-y-3">
         <a href="#" className='flex item-center gap-3 font-medium text-zinc-200 xl:text-sm lg:text-xs'>
